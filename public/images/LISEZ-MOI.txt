@@ -1,0 +1,22 @@
+═══════════════════════════════════════════════════════════════════
+  DOSSIER IMAGES
+═══════════════════════════════════════════════════════════════════
+
+  images/
+  ├── chantiers/   ← LES PHOTOS DE CHANTIERS (c'est ici !)
+  │                  Voir le LISEZ-MOI à l'intérieur.
+  │                  Elles s'affichent automatiquement sur le site.
+  │
+  ├── logo/        ← Le logo de l'entreprise, s'il y en a un.
+  │                  Idéalement un .svg, sinon un .png à fond
+  │                  transparent d'au moins 500 px de large.
+  │
+  └── partage/     ← L'image qui s'affiche quand on partage le lien
+                     du site sur WhatsApp, Facebook ou par SMS.
+                     Format : 1200 × 630 pixels.
+                     Une belle photo de parquet fait très bien
+                     l'affaire.
+
+Pour le logo et l'image de partage, prévenez votre développeur
+après les avoir déposés : il reste une ligne à brancher.
+Pour les photos de chantiers, il n'y a rien à faire.

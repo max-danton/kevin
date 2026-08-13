@@ -1,0 +1,64 @@
+═══════════════════════════════════════════════════════════════════
+  PHOTOS DE CHANTIERS
+═══════════════════════════════════════════════════════════════════
+
+Déposez simplement vos photos DANS CE DOSSIER.
+Elles apparaissent automatiquement sur la page « Réalisations »
+du site. Aucun code à modifier.
+
+
+─── 1. Les fichiers ───────────────────────────────────────────────
+
+Formats acceptés : .jpg  .jpeg  .png  .webp  .avif
+
+Taille conseillée : 1600 à 2000 pixels de large.
+Une photo prise au téléphone convient parfaitement.
+Évitez les fichiers de plus de 3 Mo (le site serait lent à charger).
+
+Nommez les fichiers avec des tirets, sans accents ni espaces :
+
+    OUI  →  chene-massif-nimes.jpg
+    NON  →  Photo chantier n°3 (final).JPG
+
+
+─── 2. L'ordre d'affichage ────────────────────────────────────────
+
+Les photos sont classées par nom de fichier. Pour choisir l'ordre,
+préfixez-les par un numéro :
+
+    01-chene-massif-nimes.jpg
+    02-poncage-vitrification-lunel.jpg
+    03-renovation-plancher-arles.jpg
+
+Mettez vos plus belles photos en premier : ce sont celles qui
+s'affichent aussi sur la page d'accueil.
+
+
+─── 3. Les légendes (facultatif) ──────────────────────────────────
+
+Sans rien faire, le nom du fichier sert de titre :
+
+    01-chene-massif-nimes.jpg  →  « Chêne massif nimes »
+
+Pour de vraies légendes, créez un fichier « legendes.json » dans ce
+dossier (un modèle est fourni : legendes.exemple.json — renommez-le
+en legendes.json et modifiez-le).
+
+Chaque champ est facultatif. Une virgule sépare les photos, et il
+n'y en a PAS après la dernière accolade.
+
+
+─── 4. Après avoir ajouté des photos ──────────────────────────────
+
+En local  : rien à faire, la page se met à jour toute seule.
+En ligne  : il faut redéployer le site (voir le README à la racine).
+
+
+─── Bon à savoir ──────────────────────────────────────────────────
+
+Tant que ce dossier ne contient aucune photo, le site affiche des
+visuels de parquet dessinés, pour ne pas paraître vide. Dès la
+première photo déposée, ce sont vos chantiers qui s'affichent.
+
+Ce fichier LISEZ-MOI et le fichier d'exemple sont ignorés : ils ne
+s'afficheront jamais sur le site.

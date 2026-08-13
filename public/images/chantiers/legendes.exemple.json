@@ -1,0 +1,22 @@
+{
+  "01-chene-massif-nimes.jpg": {
+    "titre": "Chêne massif en point de Hongrie",
+    "lieu": "Nîmes",
+    "type": "Pose collée",
+    "surface": "62 m²",
+    "description": "Dépose de l'ancienne moquette, ragréage puis pose collée d'un chêne massif 14 mm. Finition huilée mate."
+  },
+  "02-poncage-vitrification-lunel.jpg": {
+    "titre": "Rénovation d'un plancher ancien",
+    "lieu": "Lunel",
+    "type": "Ponçage & vitrification",
+    "surface": "48 m²",
+    "description": "Rebouchage des fentes, triple ponçage et vitrification satinée. Le plancher d'origine a été conservé."
+  },
+  "03-contrecolle-montpellier.jpg": {
+    "titre": "Contrecollé sur plancher chauffant",
+    "lieu": "Montpellier",
+    "type": "Pose collée",
+    "surface": "95 m²"
+  }
+}
