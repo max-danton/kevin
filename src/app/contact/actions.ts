@@ -95,6 +95,6 @@ export async function envoyerDemande(
   return {
     statut: "succes",
     message:
-      "Demande bien reçue. Je vous rappelle sous 24 h ouvrées pour convenir d'une visite.",
+      "Demande bien reçue. Je vous rappelle rapidement pour convenir d'une visite.",
   };
 }

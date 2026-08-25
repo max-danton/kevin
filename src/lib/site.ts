@@ -64,7 +64,7 @@ export const site = {
     "Sète",
     "Béziers",
   ],
-  horaires: "Du lundi au vendredi, 8h – 18h",
+  horaires: "Du lundi au vendredi, 8h – 20h",
 
   // ─── Mentions légales (obligatoire pour une EI) ─────────────────
   // ⚠️ À compléter avant la mise en ligne.

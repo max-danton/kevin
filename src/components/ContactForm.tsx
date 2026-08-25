@@ -241,7 +241,7 @@ export function ContactForm() {
       <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center sm:justify-between">
         <BoutonEnvoi />
         <p className="text-[0.82rem] text-ink-faint">
-          Réponse sous 24 h ouvrées · Devis gratuit
+          Réponse rapide · Devis gratuit
         </p>
       </div>
     </form>

@@ -13,7 +13,7 @@ import { Container, Eyebrow, SectionHeading } from "@/components/Ui";
 
 export const metadata: Metadata = {
   title: "Contact & devis gratuit",
-  description: `Demandez votre devis gratuit à ${site.name}, parqueteur ${site.villeA}. Réponse sous 24 h ouvrées, déplacement offert ${site.zone}.`,
+  description: `Demandez votre devis gratuit à ${site.name}, parqueteur ${site.villeA}. Réponse rapide, déplacement offert ${site.zone}.`,
 };
 
 const coordonnees = [
@@ -55,8 +55,8 @@ export default function Contact() {
             Parlons de votre parquet
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-pretty text-ink-soft">
-            Décrivez-moi votre projet en quelques lignes. Je vous rappelle sous
-            24 h ouvrées pour affiner et convenir d&apos;une visite. Le
+            Décrivez-moi votre projet en quelques lignes. Je vous rappelle
+            rapidement pour affiner et convenir d&apos;une visite. Le
             déplacement et le devis sont gratuits, sans engagement.
           </p>
         </Container>

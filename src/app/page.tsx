@@ -5,6 +5,7 @@ import { realisations, temoignages } from "@/lib/realisations";
 import { listerChantiers } from "@/lib/galerie";
 import { CtaBand } from "@/components/CtaBand";
 import { Faq } from "@/components/Faq";
+import { ParquetScene } from "@/components/ParquetScene";
 import { PhotoChantier } from "@/components/PhotoChantier";
 import { ServiceCard } from "@/components/ServiceCard";
 import { WoodPanel } from "@/components/WoodPanel";
@@ -25,9 +26,8 @@ import {
 
 const chiffres = [
   { valeur: `${site.rayonKm} km`, label: "rayon d'intervention" },
-  { valeur: "48 h", label: "pour votre devis" },
-  { valeur: "0 €", label: "de frais de déplacement" },
-  { valeur: "10 ans", label: "de garantie décennale" },
+  { valeur: "Rapide", label: "réponse pour votre devis" },
+  { valeur: "Décennale", label: "garantie sur les travaux" },
 ];
 
 export default function Accueil() {
@@ -38,11 +38,15 @@ export default function Accueil() {
     <>
       {/* ───────────────────────── Hero ───────────────────────── */}
       <section className="relative overflow-hidden bg-cream">
+        <ParquetScene className="pointer-events-none absolute inset-0 opacity-[0.32]" />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-gradient-to-b from-cream via-cream/50 to-cream"
+        />
         <div
           aria-hidden
           className="pointer-events-none absolute -right-40 -top-40 h-[32rem] w-[32rem] rounded-full bg-sand/70 blur-3xl"
         />
-
         <Container className="relative py-16 sm:py-24 lg:py-28">
           <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_1fr] lg:gap-16">
             <div className="animate-rise">
@@ -61,7 +65,7 @@ export default function Accueil() {
 
               <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <ButtonLink href="/contact">
-                  Devis gratuit sous 48 h
+                  Devis gratuit, réponse rapide
                   <ArrowIcon className="h-4 w-4" />
                 </ButtonLink>
                 <ButtonAnchor href={`tel:${site.phoneHref}`} variant="secondaire">
@@ -116,7 +120,7 @@ export default function Accueil() {
       {/* ───────────────────── Bandeau chiffres ───────────────────── */}
       <section className="border-y border-clay/70 bg-sand/50">
         <Container>
-          <dl className="grid grid-cols-2 divide-clay/70 sm:grid-cols-4 sm:divide-x">
+          <dl className="grid grid-cols-1 divide-y divide-clay/70 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             {chiffres.map((c) => (
               <div key={c.label} className="px-2 py-8 text-center sm:py-10">
                 <dt className="sr-only">{c.label}</dt>

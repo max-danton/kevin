@@ -99,7 +99,7 @@ export const etapes = [
     numero: "01",
     titre: "Premier contact",
     texte:
-      "Vous m'appelez ou vous remplissez le formulaire. On parle de votre projet, de la surface et de vos délais. Réponse sous 24 h ouvrées.",
+      "Vous m'appelez ou vous remplissez le formulaire. On parle de votre projet, de la surface et de vos délais. Réponse rapide.",
   },
   {
     numero: "02",
@@ -123,7 +123,7 @@ export const etapes = [
 
 export const atouts = [
   {
-    titre: "Devis gratuit sous 48 h",
+    titre: "Devis gratuit, réponse rapide",
     texte:
       "Déplacement et chiffrage offerts. Un prix clair, détaillé, sans surprise à la fin du chantier.",
   },
@@ -135,7 +135,7 @@ export const atouts = [
   {
     titre: "Assurance décennale",
     texte:
-      "Entreprise individuelle déclarée et assurée. Votre chantier est couvert pendant 10 ans.",
+      "Entreprise individuelle déclarée et assurée. Votre chantier est couvert par la garantie décennale.",
   },
   {
     titre: "Chantier propre",
